@@ -11,7 +11,7 @@
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "e93f34719f8a3c38d7b7454a16fdd01d881791ac406135dbd998c68a5f4c0613"
+                      "sha256":  "19b8bf064adc5992c4b6bd4251ee7d704ee35ea4eaab0eb8634f2fb633ccdbbf"
                   },
                   {
                       "path":  "skills/skill-drift-check/runtime/cache.js",
@@ -59,11 +59,11 @@
                   },
                   {
                       "path":  "skills/skill-drift-check/SKILL.md",
-                      "sha256":  "d7c5c912fcb6327c1da3e72050bc1a4af0285af8224a22435492b558dcd3c222"
+                      "sha256":  "643ea6db7719f9fbd758244ae8932d47fb2a496fab1cfa9d6adbcf4ed8edceb6"
                   },
                   {
                       "path":  "verify-public-skill.ps1",
-                      "sha256":  "9c9c4da772a62a330e269ded5b892be916f62bc1469100049e0bea5e7f9b1294"
+                      "sha256":  "73cb445d527be1c918408fbae87292b3efba032d6c663bb899b011d7b741f466"
                   }
               ]
 }

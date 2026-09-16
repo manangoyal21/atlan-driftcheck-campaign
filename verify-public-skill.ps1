@@ -90,6 +90,16 @@ if ($skillText -notmatch "(?m)^name: skill-drift-check\r?$" -or
     $skillText -notmatch "(?m)^description: ") {
     throw "SKILL.md is missing required Agent Skills frontmatter."
 }
+foreach ($requiredSection in @(
+    "## Purpose",
+    "## Standard workflow",
+    "## Metric and expected impact",
+    "skill consistency rate"
+)) {
+    if (-not $skillText.Contains($requiredSection)) {
+        throw "SKILL.md is missing required content: $requiredSection"
+    }
+}
 if ($skillText -match "(?m)^driftcheck (audit|verify|sync)") {
     throw "SKILL.md must use the bundled runtime without npm installation."
 }

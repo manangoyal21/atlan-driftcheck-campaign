@@ -7,6 +7,26 @@ current Agent Skills convention: one discoverable skill at
 `skills/skill-drift-check/SKILL.md`, with its dependency-free Node.js runtime and
 schema contained inside that skill directory.
 
+## Purpose
+
+Agent skills are often copied or linked across tools, repositories, and
+developer machines. Skill Drift Check creates a deterministic `skills.lock`,
+detects missing or modified copies, and safely previews restoration from an
+immutable Git revision.
+
+## What it measures
+
+The primary operational metric is:
+
+```text
+skill consistency rate = OK locked locations / all locked locations Ã— 100
+```
+
+Use `verify --format json` to calculate that rate and track mismatch counts in
+CI. A successful repair is demonstrated by a failing verification before sync
+and an all-OK verification afterward. The skill does not identify teammates,
+prove what an agent loaded, or measure business activation.
+
 ## Install
 
 ```sh
