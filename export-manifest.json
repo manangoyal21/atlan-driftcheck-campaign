@@ -1,0 +1,69 @@
+{
+    "format":  "skill-drift-check-public-export",
+    "version":  1,
+    "runtime":  "node\u003e=20",
+    "license":  "MIT",
+    "licenseStatus":  "approved",
+    "files":  [
+                  {
+                      "path":  "LICENSE",
+                      "sha256":  "63b57635019c50c1d39d095727e321ee40999bc19d98569ca432067514bbf864"
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "e93f34719f8a3c38d7b7454a16fdd01d881791ac406135dbd998c68a5f4c0613"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/cache.js",
+                      "sha256":  "f2c2afd976174b69ec72d3ab0ff9abecbb3ad9dca1410fd0a75afdd5cdbe5864"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/cli.js",
+                      "sha256":  "f45ba72b0f4c1538b61a66148f26573361b9611364a856c185bb376e53785c50"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/commands.js",
+                      "sha256":  "f200ba01ed0ba7100a82b980d1c1badde201734c2e5b281da17e37d44b84b5e5"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/discovery.js",
+                      "sha256":  "0dec873a142bacccf4bd03f567abd7e56d2d20d65f7af12e0ea568992c60636c"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/git.js",
+                      "sha256":  "d722c19b18098469cb1ca42b78f83b553593943b698a04a40eab4085119361b8"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/hash.js",
+                      "sha256":  "7ac414a918319eb591897c7867a374abfc804e217f91dc7a7e26cb175e931afc"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/lockfile.js",
+                      "sha256":  "c7fa932fc42fb2a35ed83208b1944ec8976934c2a0250228200d7eb79b9a5ec4"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/package.json",
+                      "sha256":  "4cb8035a2ff95253d2cffc4d5a24d4d3dafa392dc7875b49ed926449b70310dc"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/sync.js",
+                      "sha256":  "6590d59fd13069a48e4b26fc69b979d8e0b84ea79ef2e998dcd37d66f9219afb"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/runtime/types.js",
+                      "sha256":  "3df5f6accbc18692d4feb3a8ec3a3ef7b4365871c31cfb0844b838587f2ec614"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/schemas/skills-lock-v1.schema.json",
+                      "sha256":  "c67b3bb9612762f9cf74a71460bae4409fd1d9794fbf058e650eee7f4e3785b0"
+                  },
+                  {
+                      "path":  "skills/skill-drift-check/SKILL.md",
+                      "sha256":  "d7c5c912fcb6327c1da3e72050bc1a4af0285af8224a22435492b558dcd3c222"
+                  },
+                  {
+                      "path":  "verify-public-skill.ps1",
+                      "sha256":  "9c9c4da772a62a330e269ded5b892be916f62bc1469100049e0bea5e7f9b1294"
+                  }
+              ]
+}
